@@ -1,9 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
-const allPosts = await Astro.glob("../posts/*.{md,mdx}")
-
+import SearchBar from "../components/SearchBar.astro";
 ---
 
 <Layout title="MyBlog">
   <h1>Welcome to my Blog</h1>
+  <SearchBar></SearchBar>
 </Layout>
