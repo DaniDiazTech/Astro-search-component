@@ -1,0 +1,9 @@
+---
+import Layout from "../layouts/Layout.astro";
+const allPosts = await Astro.glob("../posts/*.{md,mdx}")
+
+---
+
+<Layout title="MyBlog">
+  <h1>Welcome to my Blog</h1>
+</Layout>

@@ -2,6 +2,8 @@
 # https://github.com/Daniel1404/Github-automation
 # Idea folder
 
+node_modules/
+
 .idea/
 
 ### Python template
