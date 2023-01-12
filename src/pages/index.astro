@@ -4,6 +4,14 @@ import SearchBar from "../components/SearchBar.astro";
 ---
 
 <Layout title="MyBlog">
-  <h1>Welcome to my Blog</h1>
-  <SearchBar></SearchBar>
+  <div class="py-10 lg:py-16">
+    <h1
+      class="text-5xl lg:text-7xl uppercase font-bold bg-clip-text text-transparent bg-gradient-to-tr from-blue-500 to-green-500 text-center"
+    >
+      Welcome to my Blog
+    </h1>
+  </div>
+  <div class="max-w-3xl mx-auto">
+    <SearchBar />
+  </div>
 </Layout>
