@@ -1,0 +1,7 @@
+---
+import Search from './Search';
+const allPosts = await Astro.glob('../posts/*.{md,mdx}');
+const posts = allPosts.filter(post => !post.draft && post.slug);
+---
+
+<Search client:load posts={posts}></Search>
