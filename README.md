@@ -3,6 +3,8 @@
 Implementation of search functionality inside an Astro component
 with React and Fuse.js.
 
+Original tutorial available on [DaniDiazTech.com](https://danidiaztech.com/create-astro-search-component/#demo).
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
